@@ -1,0 +1,31 @@
+[26-Mar-2016 22:50:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'u1_proposaladmin'@'localhost' (using password: YES) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 5
+[26-Mar-2016 22:55:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'u1_proposaladmin'@'localhost' (using password: YES) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 5
+[27-Mar-2016 04:58:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/u1/public_html/bwaldrop.com/tools/index.php on line 4
+[27-Mar-2016 05:36:44 UTC] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/u1/public_html/bwaldrop.com/tools/index.php on line 4
+[27-Mar-2016 05:37:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/u1/public_html/bwaldrop.com/tools/index.php on line 10
+[27-Mar-2016 05:43:17 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/u1/public_html/bwaldrop.com/tools/index.php on line 12
+[27-Mar-2016 06:00:00 UTC] PHP Parse error:  syntax error, unexpected ''.mysqli_real_escape_string($l' (T_CONSTANT_ENCAPSED_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 17
+[27-Mar-2016 06:10:46 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 25
+[27-Mar-2016 06:12:18 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 25
+[27-Mar-2016 06:12:46 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 25
+[27-Mar-2016 06:15:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 25
+[27-Mar-2016 06:17:11 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 06:17:13 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 06:24:14 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 06:25:21 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 06:30:30 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 06:30:39 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 29
+[27-Mar-2016 13:25:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'u1'@'localhost' (using password: NO) in /home/u1/public_html/bwaldrop.com/tools/index.php on line 5
+[27-Mar-2016 13:25:07 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/u1/public_html/bwaldrop.com/tools/index.php on line 49
+[27-Mar-2016 13:25:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/u1/public_html/bwaldrop.com/tools/index.php on line 50
+[27-Mar-2016 13:25:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/u1/public_html/bwaldrop.com/tools/index.php on line 51
+[29-Mar-2016 13:07:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/u1/public_html/bwaldrop.com/tools/dashboard.php on line 4
+[29-Mar-2016 13:08:21 UTC] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/u1/public_html/bwaldrop.com/tools/dashboard.php on line 7
+[07-Apr-2016 01:02:32 UTC] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home/u1/public_html/bwaldrop.com/tools/login.php on line 9
+[07-Apr-2016 01:02:51 UTC] PHP Parse error:  syntax error, unexpected 'AND' (T_LOGICAL_AND) in /home/u1/public_html/bwaldrop.com/tools/login.php on line 9
+[21-Apr-2016 17:37:53 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[21-Apr-2016 17:37:53 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[21-Apr-2016 17:37:53 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[21-Apr-2016 17:38:18 UTC] PHP Warning:  include(../php/login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[21-Apr-2016 17:38:18 UTC] PHP Warning:  include(../php/login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[21-Apr-2016 17:38:18 UTC] PHP Warning:  include(): Failed opening '../php/login.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
