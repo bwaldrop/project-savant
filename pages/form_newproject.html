@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="minmax">
 <head>
 	<title>Add Project</title>
 	<!-- Latest compiled and minified CSS -->
@@ -14,13 +14,14 @@
 	
 </head>
 <body>
-	<div class="container main-content" ng-app>
-		<h1>{{title}} is Awesome: {{awesome}}</h1>
+	<div class="container main-content" ng-controller="MinMaxCtrl">
+		<h1>Create Your New Project</h1>
 		<form>
 			<div class="form-group">
 				<label for="ProjNo">Project Number</label>
 				<input type="text"
 				       class="form-control"
+				       ng-model="formModel.ProjNo"
 				       id="ProjNo"/>
 			</div>
 
@@ -28,27 +29,36 @@
 				<label for="name">Name</label>
 				<input type="text"
 				       class="form-control"
+				       ng-model="formModel.name"
 				       id="name"/>
 			</div>
 
 			<div class="form-group">
-				<label for="name">Name</label>
+				<label for="notes">Notes</label>
 				<input type="text"
 				       class="form-control"
-				       id="name"/>
+				       ng-model="formModel.notes"
+				       id="notes"/>
 			</div>
 			
 			<div class="form-group">
-				<label for="name">Name</label>
+				<label for="status">Status</label>
 				<input type="text"
 				       class="form-control"
-				       id="name"/>
+				       ng-model="formModel.status"
+				       id="status"/>
 			</div>
 			
+			<div class="form-group">
+				<button class="btn btn-primary" ng-click="onSubmit()">Submit
+				</button>
+			</div>
 		</form>
+		<pre>{{ formModel | json }} </pre>
 	</div>
 	
 	<!-- AngularJS Script	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
