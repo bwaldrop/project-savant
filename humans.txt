@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Bradley Waldrop -- Project Manager / Lead Developer -- @bradleywaldrop
 
 # THANKS
 
@@ -12,4 +12,5 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr, AngularJS
+	php, mySQL
