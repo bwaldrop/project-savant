@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en">
 <head>
 	<title>Add Project</title>
 	<!-- Latest compiled and minified CSS -->
@@ -14,16 +14,26 @@
 	
 </head>
 <body>
-	<div class="container" ng-init="title='CodeCraft'; awesome=true;">
+	<div class="container main-content" ng-app>
 		<h1>{{title}} is Awesome: {{awesome}}</h1>
-		
-		<input type="text"
-				class="form-control"
-				ng-model="title"/>
-		<input type="text"
-				class="form-control"
-				ng-model="title"/>
+		<form>
+			<div class="form-group">
+				<label for="ProjNo">Project Number</label>
+				<input type="text"
+				       class="form-control"
+				       id="ProjNo"/>
+			</div>
+
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text"
+				       class="form-control"
+				       id="name"/>
+			</div>
+		</form>
 	</div>
+	
+	<!-- AngularJS Script	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </body>
 </html>
