@@ -6,11 +6,12 @@ class Project{
  
     // object properties 
     public $id; 
+    public $owner;
+    public $client; 
     public $number; 
-    public $name; 
+    public $name;
     public $notes;
-    public $statusid;
-    public $clientid; 
+    public $status; 
     public $created;
     public $modified; 
  
@@ -24,7 +25,7 @@ class Project{
 	 
 	    // select all query
 	    $query = "SELECT 
-	                id, number, name, notes, statusid, clientid, created, modified 
+	                id, owner, client, number, name, notes, status, created, modified 
 	            FROM 
 	                " . $this->table_name . "
 	            ORDER BY 
@@ -47,26 +48,30 @@ function create(){
     $query = "INSERT INTO 
                 " . $this->table_name . "
             SET
-                id=:id, number=:number, name=:name, notes=:notes, statusid=:statusid, clientid=:clientid, created=:created, modified=:modified";
+                id=:id, owner=:owner, client=:client, number=:number, name=:name, notes=:notes, status=:status, created=:created, modified=:modified";
      
     // prepare query
     $stmt = $this->conn->prepare($query);
  
     // posted values
+    $this->id=htmlspecialchars(strip_tags($this->id));
+    $this->owner=htmlspecialchars(strip_tags($this->owner));
+	$this->client=htmlspecialchars(strip_tags($this->client));
     $this->number=htmlspecialchars(strip_tags($this->number));
     $this->name=htmlspecialchars(strip_tags($this->name));
     $this->notes=htmlspecialchars(strip_tags($this->notes));
-	$this->statusid=htmlspecialchars($this->statusid));
-	$this->clientid=htmlspecialchars($this->clientid));
-	$this->created=htmlspecialchars($this->created));
-	$this->modified=htmlspecialchars($this->modified));
+	$this->status=htmlspecialchars(strip_tags($this->status));
+	$this->created=htmlspecialchars(strip_tags($this->created));
+	$this->modified=htmlspecialchars(strip_tags($this->modified));
 	 
     // bind values
+    $stmt->bindParam(":id", $this->id);
+    $stmt->bindParam(":owner", $this->owner);
+    $stmt->bindParam(":client", $this->client);
     $stmt->bindParam(":number", $this->number);
     $stmt->bindParam(":name", $this->name);
     $stmt->bindParam(":notes", $this->notes);
-    $stmt->bindParam(":clientid", $this->clientid);
-    $stmt->bindParam(":statusid", $this->statusid);
+    $stmt->bindParam(":status", $this->status);
     $stmt->bindParam(":created", $this->created);
     $stmt->bindParam(":modified", $this->modified);
      
@@ -87,7 +92,7 @@ function readOneProject(){
      
     // query to read single record
     $query = "SELECT 
-                number, name, notes, clientid, statusid, created, modified  
+                id, owner, client, number, name, notes, status, created, modified  
             FROM 
                 " . $this->table_name . "
             WHERE 
@@ -108,13 +113,15 @@ function readOneProject(){
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
      
     // set values to object properties
+    $this->id = $row['id'];
+    $this->owner = $row['owner'];
+    $this->client = $row['client'];
     $this->number = $row['number'];
     $this->name = $row['name'];
     $this->notes = $row['notes'];
-    $this->clientid = $row['clientid'];
-    $this->statusid = $row['statusid'];
+    $this->status = $row['status'];
     $this->created = $row['created'];
-    $this-modified = $row['modified'];
+    $this->modified = $row['modified'];
 }
 
 // update the project
@@ -124,11 +131,12 @@ function update(){
     $query = "UPDATE 
                 " . $this->table_name . "
             SET 
+                owner = :owner,
+                client = :client,
                 number = :number, 
                 name = :name,
                 notes = :notes,
-                clientid = :clientid;
-                statusid = :statusid;
+                status = :status;
                 created = :created;
                 modified = :modified;  
             WHERE
@@ -138,22 +146,26 @@ function update(){
     $stmt = $this->conn->prepare($query);
  
     // posted values
+    $this->id=htmlspecialchars(strip_tags($this->id));
+    $this->owner=htmlspecialchars(strip_tags($this->owner));
+    $this->client=htmlspecialchars(strip_tags($this->client));
 	$this->number=htmlspecialchars(strip_tags($this->number));
     $this->name=htmlspecialchars(strip_tags($this->name));
     $this->notes=htmlspecialchars(strip_tags($this->notes));
-    $this->clientid=htmlspecialchars(strip_tags($this->clientid));
-	$this->statusid=htmlspecialchars(strip_tags($this->statusid));
+	$this->status=htmlspecialchars(strip_tags($this->status));
 	$this->created=htmlspecialchars(strip_tags($this->created));
     $this->modified=htmlspecialchars(strip_tags($this->modified));
     
     
     // bind new values
     // bind values
+    $stmt->bindParam(":id", $this->id);
+    $stmt->bindParam(":owner", $this->owner);
+    $stmt->bindParam(":client", $this->client);
     $stmt->bindParam(":number", $this->number);
     $stmt->bindParam(":name", $this->name);
     $stmt->bindParam(":notes", $this->notes);
-    $stmt->bindParam(":clientid", $this->clientid);
-    $stmt->bindParam(":statusid", $this->statusid);
+    $stmt->bindParam(":status", $this->status);
     $stmt->bindParam(":created", $this->created);
     $stmt->bindParam(":modified", $this->modified);
      
