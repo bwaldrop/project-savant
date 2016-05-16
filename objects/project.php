@@ -88,7 +88,7 @@ function create(){
 }
 
 // used when filling up the update project form
-function readOneProject(){
+function readOne(){
      
     // query to read single record
     $query = "SELECT 
