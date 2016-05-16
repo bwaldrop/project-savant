@@ -1,7 +1,7 @@
 <?php 
 // include database and object files 
-include_once 'config/database.php'; 
-include_once 'objects/product.php'; 
+include_once '../config/database.php'; 
+include_once '../objects/product.php'; 
  
 // get database connection 
 $database = new Database(); 
@@ -17,11 +17,14 @@ $data = json_decode(file_get_contents("php://input"));
 $project->id = $data->id;
  
 // set product property values
+$project->owner = $data->owner;
+$project->client = $data->client;
+$project->number = $data->number;
 $project->name = $data->name;
-$project->ProjNo = $data->ProNo;
-$project->status = $data->status;
-$project->clientid = $data->clientid;
 $project->notes = $data->notes;
+$project->status = $data->status;
+$project->created = $data->created;
+$project->modfied = date('Y-m-d H:i:s');
  
 // update the project
 if($project->update()){

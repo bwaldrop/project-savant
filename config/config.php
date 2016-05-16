@@ -3,9 +3,9 @@ class Database{
  
     // specify your own database credentials 
     private $host = "localhost"; 
-    private $db_name = "5phpangularcrudlevel1"; 
-    private $username = "root"; 
-    private $password = ""; 
+    private $db_name = "u1_proposal"; 
+    private $username = "u1_proposaladmin"; 
+    private $password = "4eVL&e@92%Wo4au$"; 
     public $conn; 
  
     // get the database connection 

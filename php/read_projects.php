@@ -3,8 +3,8 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8"); 
  
 // include database and object files 
-include_once 'config/database.php'; 
-include_once 'objects/project.php'; 
+include_once '../config/database.php'; 
+include_once '../objects/project.php'; 
  
 // instantiate database and project object 
 $database = new Database(); 
@@ -34,10 +34,14 @@ if($num>0){
           
         $data .= '{';
             $data .= '"id":"'  . $id . '",';
-	        $data .= '"ProNo":"' . html_entity_decode($prono) . '",';
-            $data .= '"name":"' . html_entity_decode($description) . '",';
-            $data .= '"status":"' . $status . '"';
-            $data .= '"notes":"' . html_entity_decode($notes) . '"';
+            $data .= '"owner:"'. $owner . '",';
+            $data .= '"client:"'. $client . '",';
+            $data .= '"number:"'. $number . '",';
+            $data .= '"name:"'. $name . '",';
+            $data .= '"notes:"'. $notes . '",';
+            $data .= '"status:"'. $status . '",';
+            $data .= '"created:"'. $created . '",';
+            $data .= '"modified:"'. $modified . '",';
         $data .= '}'; 
           
         $data .= $x<$num ? ',' : ''; $x++; } 

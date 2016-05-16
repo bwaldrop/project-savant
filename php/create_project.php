@@ -5,19 +5,21 @@ $database = new Database();
 $db = $database->getConnection();
  
 // instantiate product object
-include_once 'objects/project.php';
+include_once '../objects/project.php';
 $product = new Project($db);
  
 // get posted data
 $data = json_decode(file_get_contents("php://input")); 
  
 // set project property values
-$project->ProjNo = $data->ProjNo;
+$project->owner = $data->owner;
+$project->client = $data->client;
+$project->number = $data->number;
 $project->name = $data->name;
 $project->notes = $data->notes;
-$project->clientid = $data->clientid;
-$project->statusid = $data->statusid;
+$project->status = $data->status;
 $project->created = date('Y-m-d H:i:s');
+$project->modified = date('Y-m-d H:i:s'); 
      
 // create the project
 if($project->create()){
