@@ -1,4 +1,6 @@
 <?php 
+session_start();
+
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8"); 
  
@@ -31,17 +33,16 @@ if($num>0){
         // this will make $row['name'] to
         // just $name only
         extract($row);
-          
         $data .= '{';
             $data .= '"id":"'  . $id . '",';
-            $data .= '"owner:"'. $owner . '",';
-            $data .= '"client:"'. $client . '",';
-            $data .= '"number:"'. $number . '",';
-            $data .= '"name:"'. $name . '",';
-            $data .= '"notes:"'. $notes . '",';
-            $data .= '"status:"'. $status . '",';
-            $data .= '"created:"'. $created . '",';
-            $data .= '"modified:"'. $modified . '",';
+            $data .= '"owner":"' . $owner . '",';
+            $data .= '"client":"' . $client . '",';
+            $data .= '"number":"' . $number . '",';
+            $data .= '"name":"' . $name . '",';
+            $data .= '"notes":"' . $notes . '",';
+            $data .= '"status":"' . $status . '",';
+            $data .= '"created":"' . $created . '",';
+            $data .= '"modified":"' . $modified . '"';
         $data .= '}'; 
           
         $data .= $x<$num ? ',' : ''; $x++; } 

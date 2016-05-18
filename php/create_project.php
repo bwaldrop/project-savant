@@ -4,7 +4,7 @@ include_once '../config/database.php';
 $database = new Database(); 
 $db = $database->getConnection();
  
-// instantiate product object
+// instantiate project object
 include_once '../objects/project.php';
 $product = new Project($db);
  
@@ -12,7 +12,7 @@ $product = new Project($db);
 $data = json_decode(file_get_contents("php://input")); 
  
 // set project property values
-$project->owner = $data->owner;
+$project->owner = $_SESSION['id'];
 $project->client = $data->client;
 $project->number = $data->number;
 $project->name = $data->name;

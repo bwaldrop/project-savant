@@ -41,7 +41,7 @@
 			   $_SESSION['id']=mysqli_insert_id($link);
 			   
 			   //you're registered and logged in, go to the dashboard
-			   header("Location:/tools/pages/index.php");
+			   header("Location:/tools/projects.php");
 		   }
 	   }
    }
@@ -57,7 +57,7 @@
 		   $_SESSION['id']=$row['ID'];
 		   
 		   //you're logged in, go to the dashboard
-		   header("Location:/tools/pages/index.php");
+		   header("Location:/tools/projects.php");
 		   
 	   } else {
 		   $error = ("We could not find the email and password combination. Please try again.");

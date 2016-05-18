@@ -1,7 +1,7 @@
 <?php 
 // include database and object files 
-include_once 'config/database.php'; 
-include_once 'objects/product.php'; 
+include_once '../config/database.php'; 
+include_once '../objects/project.php'; 
  
 // get database connection 
 $database = new Database(); 
@@ -17,16 +17,19 @@ $data = json_decode(file_get_contents("php://input"));
 $project->id = $data->id;
  
 // read the details of product to be edited
-$project->readOneProject();
+$project->readOne();
  
 // create array
 $project_arr[] = array(
     "id" =>  $project->id,
+    "owner" => $project->owner,
+    "client" => $project->client,
     "number" => $project->number,
     "name" => $project->name,
-    "clientid" => $project->clientid,
     "notes" => $project->notes,
-    "status" => $project->status
+    "status" => $project->status,
+    "created" => $project->created,
+    "modified" => $project->modified
 );
  
 // make it json format

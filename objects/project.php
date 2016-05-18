@@ -1,4 +1,7 @@
-<?php 
+<?php
+
+session_start();
+ 
 class Project{ 
     // database connection and table name 
     private $conn; 
@@ -27,9 +30,11 @@ class Project{
 	    $query = "SELECT 
 	                id, owner, client, number, name, notes, status, created, modified 
 	            FROM 
-	                " . $this->table_name . "
+	                " . $this->table_name . " 
+	            WHERE
+	                owner=" . $_SESSION['id'] . "
 	            ORDER BY 
-	                id DESC";
+	                number ASC";
 	 
 	    // prepare query statement
 	    $stmt = $this->conn->prepare( $query );

@@ -1,299 +1,134 @@
-<!DOCTYPE html>
-<html>
-<head>
- 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-    <title>My Projects</title>
-     
-    <!-- include material design CSS -->
-    <link rel="stylesheet" href="libs/css/materialize/css/materialize.min.css" />
-     
-    <!-- include material design icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    
-    <!-- custom CSS -->
-	<style>
-	.width-30-pct{
-	    width:30%;
-	}
-	 
-	.text-align-center{
-	    text-align:center;
-	}
-	 
-	.margin-bottom-1em{
-	    margin-bottom:1em;
-	}
-	</style>
-     
-</head>
-<body>
- 
-<!-- page content and controls will be here -->
-<div class="container" ng-app="myApp" ng-controller="projectsCtrl">
-    <div class="row">
-        <div class="col s12">
-            <h4>Projects</h4>
-            
-            <!-- used for searching the current list -->
-			<input type="text" ng-model="search" class="form-control" placeholder="Search project..." />
-			 
-			<!-- table that shows project record list -->
-			<table class="hoverable bordered">
-			 
-			    <thead>
-			        <tr>
-			            <th class="text-align-center">ID</th>
-						<th class="text-align-center">Owner</th>
-			            <th class="text-align-center">Client</th>
-			            <th class="text-align-center">Number</th>
-			            <th class="text-align-center">Name</th>
-						<th class="text-align-center">Notes</th>
-						<th class="text-align-center">Status</th>
-						<th class="text-align-center">Created</th>
-						<th class="text-align-center">Modified</th>
-						<th class="text-align-center">Action</th>
-			        </tr>
-			    </thead>
-			 
-			    <tbody ng-init="getAll()">
-			        <tr ng-repeat="d in names | filter:search">
-			            <td class="text-align-center">{{ d.id }}</td>
-			            <td>{{ d.id }}</td>
-			            <td>{{ d.owner }}</td>
-			            <td>{{ d.client }}</td>
-						<td>{{ d.number }}</td>
-						<td>{{ d.name }}</td>
-						<td>{{ d.notes }}</td>
-						<td>{{ d.status }}</td>
-						<td>{{ d.created }}</td>
-						<td>{{ d.modified }}</td>
-			            <td>
-			                <a ng-click="readOneProject(d.id)" class="waves-effect waves-light btn margin-bottom-1em"><i class="material-icons left">edit</i>Edit</a>
-			                <a ng-click="deleteProject(d.id)" class="waves-effect waves-light btn margin-bottom-1em"><i class="material-icons left">delete</i>Delete</a>
-			            </td>
-			        </tr>
-			    </tbody>
-			</table>
+<!--
+<?php
+  session_start();
+  if (!$_SESSION['id']){
+	  //user not loged in, redirect to login page and provide and error.
+	  $error = "You are not logged in.";
+	  header("Location:index.php/?uie=1");
+  }
+?> 
+-->
 
-            
-            <!-- modal for for creating new project -->
-			<div id="modal-project-form" class="modal">
-			    <div class="modal-content">
-			        <h4 id="modal-project-title">Create New Project</h4>
-			        <div class="row">
-			            <div class="input-field col s12">
-			                <input ng-model="number" type="text" class="validate" id="form-number" placeholder="Type number here..." />
-			                <label for="number">Number</label>
-			            </div>
-			 
-			            <div class="input-field col s12">
-			                <input ng-model="name" type="text" class="validate" id="form-name" placeholder="Type name here..."/>
-			                <label for="name">Name</label>
-			            </div>
-			 
-			 
-			            <div class="input-field col s12">
-			                <text-area ng-model="notes" type="text" class="validate" id="form-notes" placeholder="Type price here..."></text-area>
-			                <label for="notes">Notes</label>
-			            </div>
-			 
-			 
-			            <div class="input-field col s12">
-			                <a id="btn-create-project" class="waves-effect waves-light btn margin-bottom-1em" ng-click="createProject()"><i class="material-icons left">add</i>Create</a>
-			 
-			                <a id="btn-update-project" class="waves-effect waves-light btn margin-bottom-1em" ng-click="updateProject()"><i class="material-icons left">edit</i>Save Changes</a>
-			 
-			                <a class="modal-action modal-close waves-effect waves-light btn margin-bottom-1em"><i class="material-icons left">close</i>Close</a>
-			            </div>
-			        </div>
-			    </div>
-			</div>
-            
-            <!-- floating button for creating project -->
-			<div class="fixed-action-btn" style="bottom:45px; right:24px;">
-			    <a class="waves-effect waves-light btn modal-trigger btn-floating btn-large red" href="#modal-project-form" ng-click="showCreateForm()"><i class="large material-icons">add</i></a
-			</div>
-			
-			 
-        </div> <!-- end col s12 -->
-    </div> <!-- end row -->
-</div> <!-- end container -->
+<!DOCTYPE html >
+<html lang="en" ng-app="bwprojects" >
+<head >
+	<title >Lists Of Projects</title >
 
- 
-<!-- include jquery -->
-<script type="text/javascript" src="libs/js/src/jquery.js"></script>
- 
-<!-- material design js -->
-<script src="libs/css/materialize/js/materialize.min.js"></script>
- 
-<!-- include angular js -->
-<script src="libs/js/angular/angular.min.js"></script>
- 
-<script>
-// angular js codes will be here
-	var app = angular.module('myApp', []);
-	app.controller('projectsCtrl', function($scope, $http) {
-	    // more angular JS codes will be here
-	    $scope.showCreateForm = function(){
-	    // clear form
-	    $scope.clearForm();
-	     
-	    // change modal title
-	    $('#modal-project-title').text("Create New Project");
-	     
-	    // hide update project button
-	    $('#btn-update-project').hide();
-	     
-	    // show create project button
-	    $('#btn-create-project').show();
-	    
-	    // read projects
-		$scope.getAll = function(){
-		    $http.get("php/read_projects.php").success(function(response){
-		        $scope.numbers = response.records;
-		    });
-		}
-		    
-		// update project record / save changes
-		$scope.updateProject = function(){
-		    $http.post('php/update_project.php', {
-		        'id' : $scope.id,
-				'owner' : $scope.owner,
-				'client' : $scope.client,
-				'number' : $scope.number,
-		        'name' : $scope.name, 
-		        'notes' : $scope.notes, 
-		        'status' : $scope.status,
-				'created' : $scope.created,
-				'modified' : $scope.modified
-		    })
-		    .success(function (data, status, headers, config){             
-		        // tell the user project record was updated
-		        Materialize.toast(data, 4000);
-		         
-		        // close modal
-		        $('#modal-project-form').closeModal();
-		         
-		        // clear modal content
-		        $scope.clearForm();
-		         
-		        // refresh the project list
-		        $scope.getAll();
-		    });
-		}
-		
-		// delete project
-		$scope.deleteProject = function(id){
-		     
-		    // ask the user if he is sure to delete the record
-		    if(confirm("Are you sure?")){
-		        // post the id of project to be deleted
-		        $http.post('php/delete_project.php', {
-		            'id' : id
-		        }).success(function (data, status, headers, config){
-		             
-		            // tell the user project was deleted
-		            Materialize.toast(data, 4000);
-		             
-		            // refresh the list
-		            $scope.getAll();
-		        });
-		    }
-		}
-		
-     }
-     
-     // clear variable / form values
-	$scope.clearForm = function(){
-	    $scope.id = "";
-	    $scope.owner = "";
-	    $scope.client = "";
-	    $scope.number = "";
-		$scope.name = "";
-		$scope.notes = "";
-		$scope.status = "";
-		$scope.created = "";
-		$scope.modified = "";
-	}
-	
-	// create new project 
-	$scope.createProject = function(){
-	         
-	    // fields in key-value pairs
-	    $http.post('php/create_project.php', {
-	            'owner' : $scope.owner;
-				'client' : $scope.client;
-				'number' : $scope.number;
-				'name' : $scope.name, 
-	            'notes' : $scope.notes,
-				'status' : $scope.status,
-				'created' : $scope.created,
-				'modified' : $scope.modified
-	        }
-	    ).success(function (data, status, headers, config) {
-	        console.log(data);
-	        // tell the user new project was created
-	        Materialize.toast(data, 4000);
-	         
-	        // close modal
-	        $('#modal-project-form').closeModal();
-	         
-	        // clear modal content
-	        $scope.clearForm();
-	         
-	        // refresh the list
-	        $scope.getAll();
-	    });
-}
-	}); 
-// jquery codes will be here
-	$(document).ready(function(){
-	    // initialize modal
-	    $('.modal-trigger').leanModal();
-	});
-	
-	// retrieve record to fill out the form
-	$scope.readOneProject = function(id){
-	     
-	    // change modal title
-	    $('#modal-project-title').text("Edit Project");
-	     
-	    // show udpate project button
-	    $('#btn-update-project').show();
-	     
-	    // show create project button
-	    $('#btn-create-project').hide();
-	     
-	    // post id of project to be edited
-	    $http.post('php/read_one_project.php', {
-	        'id' : id 
-	    })
-	    .success(function(data, status, headers, config){
-	         
-	        // put the values in form
-	        $scope.id = data[0]["id"];
-			$scope.owner = data[0]["owner"];
-			$scope.client = data[0]["client"];
-			$scope.number = data[0]["number"];
-	        $scope.name = data[0]["name"];
-	        $scope.notes = data[0]["notes"];
-	        $scope.status = data[0]["status"];
-			$scope.created = data[0]["created"];
-			$scope.modified = data[0]["modified"];
-	         
-	        // show modal
-	        $('#modal-project-form').openModal();
-	    })
-	    .error(function(data, status, headers, config){
-	        Materialize.toast('Unable to retrieve record.', 4000);
-	    });
-}
+	<link href="main.css" rel="stylesheet" >
+</head >
 
-</script>
- 
-</body>
-</html>
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+	<div class="container" >
+		<div class="navbar-header" >
+			<a class="navbar-brand"
+			   href="/" >Lists Of Projects
+			</a >
+		</div >
+	</div >
+</nav >
+
+<div class="container main-content" ng-controller="ProjectsController" >
+
+	<div class="row" >
+		<div class="col-md-12" >
+			<form class="form-inline well well-sm" >
+				<span class="glyphicon glyphicon-search" ></span >
+
+				<div class="form-group" >
+						<input type="text"
+						       class="form-control"
+						       id="name"
+						       ng-model="search"
+						       placeholder="Search name..."
+								/>
+				</div >
+
+				<span class="glyphicon glyphicon-sort-by-attributes" ></span >
+
+				<div class="form-group" >
+					<select class="form-control"
+									ng-model="order">
+						<option value="name" >Name (ASC)</option >
+						<option value="-name" >Name (DEC)</option >
+						<option value="number" >Number (ASC)</option >
+						<option value="-number" >Number (DEC)</option >
+					</select >
+				</div >
+
+			</form >
+		</div >
+	</div >
+
+
+	<div class="row" >
+		<div class="col-md-8" >
+
+			<table class="table table-bordered" >
+
+				<tr >
+					<th >ID</th >
+					<th >Number
+						<span ng-click="order = 'number'" class="glyphicon glyphicon-menu-up"></span>
+						<span ng-click="order = '-number'" class="glyphicon glyphicon-menu-down"></span>
+					</th >
+					<th >Name
+						<span ng-click="order = 'name'" class="glyphicon glyphicon-menu-up"></span>
+						<span ng-click="order = '-name'" class="glyphicon glyphicon-menu-down"></span>
+					</th >
+					<th >Status</th >
+				</tr >
+
+				<tr ng-repeat="project in filteredProjects = (projects | filter:sensitiveSearch | orderBy:order)"
+				    ng-style="{
+							 'background-color': $index == selectedIndex ? 'lightgray' : ''
+						}"
+				    ng-click="selectProject(project, $index)" >
+					<td >{{ $index }}</td >
+					<td >{{ project.number }}</td >
+					<td >{{ project.name }}</td >
+					<td >{{ project.status }}</td >
+				</tr >
+				<tr ng-show="filteredProjects.length == 0">
+					<td colspan="4">
+						<div class="alert alert-info">
+							<p class="text-center">No results found for search term '{{ search }}'</p>
+						</div>
+					</td>
+				</tr>
+
+
+			</table >
+
+		</div >
+		<div class="col-md-4" >
+
+			<div class="panel panel-default" >
+				<div class="panel-heading" >Details</div >
+				<div class="panel-body" >
+
+					<dl >
+						<dt >Number</dt >
+						<dd >{{selectedProject.number}}</dd >
+						<dt >Name</dt >
+						<dd >{{selectedProject.name}}</dd >
+						<dt >Status</dt >
+						<dd >{{selectedProject.status}}</dd >
+						<dt >Client</dt >
+						<dd >{{selectedProject.client}}</dd >
+						<dt >Owner</dt >
+						<dd >{{selectedProject.owner}}</dd >
+					</dl >
+				</div >
+			</div >
+
+		</div >
+	</div >
+
+
+</div >
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="main.js" ></script >
+</body >
+</html >

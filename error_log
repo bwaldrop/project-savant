@@ -29,3 +29,577 @@
 [21-Apr-2016 17:38:18 UTC] PHP Warning:  include(../php/login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
 [21-Apr-2016 17:38:18 UTC] PHP Warning:  include(../php/login.php): failed to open stream: No such file or directory in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
 [21-Apr-2016 17:38:18 UTC] PHP Warning:  include(): Failed opening '../php/login.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u1/public_html/bwaldrop.com/tools/index.php on line 2
+[17-May-2016 21:38:48 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:38:48 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:38:48 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:39:56 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:39:56 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:40:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:40:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:40:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:41:05 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:05 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:41:18 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:18 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:41:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:41:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:41:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:41:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:06 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:42:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:06 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:18 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:42:18 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:18 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:42:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:42:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:45:19 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:45:19 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:45:19 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:47:16 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:47:16 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:47:16 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:47:19 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:47:19 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:47:19 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:48:03 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:48:03 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:48:03 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:51:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 22
+[17-May-2016 21:51:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:51:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 26
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:21 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:22 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:23 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:25 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:27 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:29 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:32 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:35 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:36 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:38 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:53:38 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:53:38 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:53:38 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 60
+[17-May-2016 21:54:01 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:54:01 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:54:01 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:54:25 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:54:25 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:54:25 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:54:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:54:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:54:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:59:40 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 29
+[17-May-2016 21:59:40 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[17-May-2016 21:59:40 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 33
+[18-May-2016 01:46:01 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:46:01 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:01 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:16 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:46:16 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:16 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:21 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:46:21 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:21 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:50 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:46:50 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:50 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:54 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:46:54 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:46:54 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:47:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:47:24 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:47:24 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:48:00 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:48:00 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:48:00 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:48:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 30
+[18-May-2016 01:48:37 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 01:48:37 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home/u1/public_html/bwaldrop.com/tools/api.php on line 34
+[18-May-2016 03:25:17 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/u1/public_html/bwaldrop.com/tools/api.php on line 103
+[18-May-2016 03:25:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/u1/public_html/bwaldrop.com/tools/api.php:105
+Stack trace:
+#0 /home/u1/public_html/bwaldrop.com/tools/api.php(1536): MySQL->connect('localhost', 'u1_proposaladmi...', '4eVL&e@92%Wo4au...', 'u1_proposal', NULL, NULL, 'utf8')
+#1 /home/u1/public_html/bwaldrop.com/tools/api.php(1867): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/u1/public_html/bwaldrop.com/tools/api.php on line 105
