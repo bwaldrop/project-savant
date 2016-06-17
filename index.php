@@ -17,6 +17,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- TypedJs -->
+<script src="bower_components/typed.js/dist/typed.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -46,7 +48,27 @@
 		.navbar{
 			margin:0 auto;
 		}
-
+		.typed-cursor{
+			opacity: 1;
+			-webkit-animation: blink 0.7s infinite;
+			-moz-animation: blink 0.7s infinite;
+			animation: blink 0.7s infinite;
+		}
+		@keyframes blink{
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+		@-webkit-keyframes blink{
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+		@-moz-keyframes blink{
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
 	</style>
 </head>
 <body>
@@ -94,7 +116,8 @@
 			
 			<div class="col-md-6 col-md-offset-3">
 			<h1 class="center">Project Savant</h1>
-			<p class="lead center">This Gives You the Power to Manage Projects With One Arm Tied Behind Your Back!</p>
+			
+			<p class="lead center">This Gives You <span class="element"></span></p>
 			<?php
 				if ($error){
 					echo '<div class="alert alert-danger">'.addslashes($error).'</div>';
@@ -127,6 +150,15 @@
 		<script>
 			$(".pagecontainer").css("min-height",$(window).height());
 		</script>
-
+	<script>
+		$(function(){
+			$(".element").typed({
+				strings: ["the Power to Manage Projects With One Arm Tied Behind Your Back!", 
+						  "the Insight to Keep Your Projects Profitable", 
+						  "the Tool Your Clients Expect You to Use!"],
+				typeSpeed: 30
+			});
+		});
+	</script>
 </body>
 </html>
